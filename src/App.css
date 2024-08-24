@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* New button styles */
+button {
+  background-color: #ff6600; /* Bright orange color */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #e65c00; /* Slightly darker orange on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+button:active {
+  background-color: #cc5200; /* Even darker on click */
+  transform: scale(0.95); /* Slightly shrink on click */
+}
